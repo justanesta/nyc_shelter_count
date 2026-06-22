@@ -14,6 +14,8 @@ jobs:
     - name: Fetch latest data
       run: |-
         wget -O ./dhs_daily_report_unhoused_report_pdfs/temp_daily_report.pdf https://www1.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
+          --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
+          https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
     - name: Add and commit
       id: add_commit
       uses: EndBug/add-and-commit@v9.1.4

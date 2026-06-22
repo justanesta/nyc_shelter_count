@@ -4,17 +4,18 @@ on:
   schedule:
     - cron: '47 1 * * *'
   workflow_dispatch:
-
 jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     - name: Fetch latest data
       run: |-
-        wget -O ./dhs_daily_report_unhoused_report_pdfs/temp_daily_report.pdf https://www1.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
-          --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
+        curl -L -o ./dhs_daily_report_unhoused_report_pdfs/temp_daily_report.pdf \
+          -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
+          -H "Accept: application/pdf,*/*" \
+          -H "Referer: https://www.nyc.gov/" \
           https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
     - name: Add and commit
       id: add_commit

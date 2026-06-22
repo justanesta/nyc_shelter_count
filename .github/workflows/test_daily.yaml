@@ -1,0 +1,26 @@
+name: Download latest DHS shelter daily report
+#
+on:
+  schedule:
+    - cron: '47 1 * * *'
+  workflow_dispatch:
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v5
+    - name: Fetch latest data
+      run: |-
+        curl -L -o ./dhs_daily_report_unhoused_report_pdfs/temp_daily_report.pdf \
+          -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
+          -H "Accept: application/pdf,*/*" \
+          -H "Referer: https://www.nyc.gov/" \
+          https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
+    - name: Add and commit
+      id: add_commit
+      uses: EndBug/add-and-commit@v9.1.4
+      with:
+        committer_name: Automated
+        committer_email: actions@users.noreply.github.com
+        message: "Downloaded latest DHS PDF"

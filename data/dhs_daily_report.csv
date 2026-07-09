@@ -1,4 +1,31 @@
 measure,count,table,date
+Drop-in Center Clients Served,63,single_adults,2026-07-07
+Drop-in Center Overnight Census,63,single_adults,2026-07-07
+Faith Bed Census,0,single_adults,2026-07-07
+Outreach Contacts,0,single_adults,2026-07-07
+Outreach Placements,0,single_adults,2026-07-07
+Safe Haven Utilization,2010,single_adults,2026-07-07
+Veterans In Short-term Housing,130,single_adults,2026-07-07
+Criminal Justice Short-term Housing,NA,single_adults,2026-07-07
+Families with Children Requesting Temporary Housing,176,family_intake,2026-07-07
+Adult Families Requesting Temporary Housing,17,family_intake,2026-07-07
+Families Placed in Overnight Accommodations,0,family_intake,2026-07-07
+Families w/children at PATH Overnight (pre 10PM),0,family_intake,2026-07-07
+Adults,54607,total_shelter_census,2026-07-07
+Children,28283,total_shelter_census,2026-07-07
+Total Individuals,82890,total_shelter_census,2026-07-07
+Man / Boy,18169,total_single_adults,2026-07-07
+Woman / Girl,7345,total_single_adults,2026-07-07
+Total Single Adults,25514,total_single_adults,2026-07-07
+Families,16378,families_with_children,2026-07-07
+Adults,24120,families_with_children,2026-07-07
+Children,28283,families_with_children,2026-07-07
+Individuals,52403,families_with_children,2026-07-07
+Families,2296,adult_families_census,2026-07-07
+Individuals,4973,adult_families_census,2026-07-07
+(Adults),NA,adult_families_census,2026-07-07
+Single Adults,27717,combined_total_single_adults,2026-07-07
+Total Individuals,85093,combined_total_shelter_census,2026-07-07
 Drop-in Center Clients Served,63,single_adults,2026-07-06
 Drop-in Center Overnight Census,63,single_adults,2026-07-06
 Faith Bed Census,0,single_adults,2026-07-06

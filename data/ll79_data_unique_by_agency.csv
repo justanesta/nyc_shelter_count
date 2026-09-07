@@ -1,4 +1,16 @@
 agency_abb,date,count,table,root
+dhs,2026-07-01,97740,number of unduplicated individuals,ll79 new report
+dycd,2026-07-01,2896,number of unduplicated individuals,ll79 new report
+herrcs,2026-07-01,1352,number of unduplicated individuals,ll79 new report
+hpd,2026-07-01,2678,number of unduplicated individuals,ll79 new report
+hra,2026-07-01,2250,number of unduplicated individuals,ll79 new report
+mocj,2026-07-01,671,number of unduplicated individuals,ll79 new report
+dhs,2026-06-01,96502,number of unduplicated individuals,ll79 new report
+dycd,2026-06-01,3312,number of unduplicated individuals,ll79 new report
+herrcs,2026-06-01,1414,number of unduplicated individuals,ll79 new report
+hpd,2026-06-01,2696,number of unduplicated individuals,ll79 new report
+hra,2026-06-01,2247,number of unduplicated individuals,ll79 new report
+mocj,2026-06-01,761,number of unduplicated individuals,ll79 new report
 dhs,2026-05-01,96839,number of unduplicated individuals,ll79 new report
 dycd,2026-05-01,3223,number of unduplicated individuals,ll79 new report
 herrcs,2026-05-01,1487,number of unduplicated individuals,ll79 new report
@@ -119,7 +131,6 @@ herrcs,2024-10-01,30463,number of unduplicated individuals,ll79 new report
 hpd,2024-10-01,2187,number of unduplicated individuals,ll79 new report
 hra,2024-10-01,2583,number of unduplicated individuals,ll79 new report
 mocj,2024-10-01,689,number of unduplicated individuals,ll79 new report
-dhs,2024-09-01,106408,number of unduplicated individuals,ll79 new report
 dycd,2024-09-01,2312,number of unduplicated individuals,ll79 new report
 herrcs,2024-09-01,31452,number of unduplicated individuals,ll79 new report
 hpd,2024-09-01,2140,number of unduplicated individuals,ll79 new report
@@ -191,6 +202,7 @@ herrcs,2023-10-01,31248,number of unduplicated individuals,ll79 new report
 hpd,2023-10-01,1962,number of unduplicated individuals,ll79 new report
 hra,2023-10-01,2786,number of unduplicated individuals,ll79 new report
 mocj,2023-10-01,785,number of unduplicated individuals,ll79 new report
+dhs,2023-09-01,98906,number of unduplicated individuals,ll79 new report
 dycd,2023-09-01,2259,number of unduplicated individuals,ll79 new report
 herrcs,2023-09-01,31699,number of unduplicated individuals,ll79 new report
 hpd,2023-09-01,2038,number of unduplicated individuals,ll79 new report

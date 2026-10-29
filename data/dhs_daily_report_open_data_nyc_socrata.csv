@@ -1,4 +1,8 @@
 date_of_census,measure,count,table
+2026-10-27,total_individuals_in_shelter,83813,DHS daily census
+2026-10-27,total_single_adults_in_shelter,27299,DHS daily census
+2026-10-27,families_with_children_in_shelter,16277,DHS daily census
+2026-10-27,adult_families_in_shelter,2335,DHS daily census
 2026-10-26,total_individuals_in_shelter,83847,DHS daily census
 2026-10-26,total_single_adults_in_shelter,27238,DHS daily census
 2026-10-26,families_with_children_in_shelter,16315,DHS daily census
